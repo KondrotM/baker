@@ -1,0 +1,14 @@
+{
+	"name": "Baker Cookie Manager",
+	"version": "0.1",
+	"description": "Your friendly local baker helps you go from cookie rookie to cookie expert",
+	"browser_action": {   "default_title": "Have a good day", "default_popup": "popup.html" },
+	"background": {
+		"scripts" : ["baker.js"],
+		"persistent": false
+	},
+	"permissions" : ["activeTab"],
+	"manifest_version": 2
+}
+
+	
